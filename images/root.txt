@@ -1,0 +1,4 @@
+linear-gradient: rgba(4,9,30,0.7)
+color-red: #f44336
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.2)
+light-red: rgba(226, 0, 0, 0.7);
