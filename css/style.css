@@ -104,11 +104,12 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 100px;
+    margin-bottom: 5%;
 }
 .course h1{
     font-size: 32px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .course p{
     color: #777;
@@ -124,6 +125,24 @@
     flex-basis: 31%;
     border-radius: 10px;
     background-color: #fff3f3;
+    padding: 12px 16px;
+    transition: 0.5s;
+    margin: 10px 0;
+}
+.course-col h4{
+    font-size: 18px;
+}
+.course-col p{
+    font-size: 15px;
+    line-height: 22px;
+}
+.course-col:hover{
+    box-shadow: var(--box-shadow);
+}
+@media(max-width :700px){
+    .row{
+          flex-direction: column;
+    }
 }
 
 
