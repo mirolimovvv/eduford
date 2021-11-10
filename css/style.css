@@ -193,11 +193,11 @@
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: 1s; 
+    transition: 0.5s
 } 
 .campus-col:hover h3{
     opacity: 1;
-    top: 48%;
+    bottom: 48%;
     transition: 1s; 
 }
 /* ------------------cactus-------------[] */
@@ -261,7 +261,7 @@
     margin-top: 70px;
 }
 .roza-col{
-    
+    display: flex;
     flex-basis: 44%;
     border-radius: 10px;
     background-color: #fff3f3;
@@ -280,8 +280,8 @@
 }
 .roza-col .rasm img{
     border-radius: 50%;
-    width: 10%;
-    margin-right: 400px;
+    width: 40px;
+    margin-right: 40px;
     flex;
     border: 1 px solid;
 }
